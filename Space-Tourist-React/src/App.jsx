@@ -1,13 +1,13 @@
 // import { useState } from "react";
 import Navbar from "./navbar.jsx";
-import Content from "./content.jsx";
+import Home from "./home.jsx";
 import "./App.css";
 
 function App() {
   return (
     <>
       <Navbar />
-      <Content />
+      <Home />
       {/* <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
