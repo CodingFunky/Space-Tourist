@@ -1,4 +1,4 @@
-import moon from "../assets/destination/image-moon.pmg";
+import moon from "../assets/destination/image-moon.png";
 
 function Destination() {
   return (
