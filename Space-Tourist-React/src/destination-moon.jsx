@@ -3,7 +3,7 @@ import moon from "../assets/destination/image-moon.pmg";
 function Destination() {
   return (
     <div className="destContainer">
-      <img src={logo} alt="Logo" />
+      <img src={moon} alt="Moon" />
       <div className="destLeftContent">01 Pick Your Destination</div>
 
       <div className="destRightContent"></div>
