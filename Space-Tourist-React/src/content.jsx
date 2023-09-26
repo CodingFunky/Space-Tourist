@@ -8,7 +8,7 @@ function Content() {
         of on the edge of it. Well sit back, and relax because we’ll give you a
         truly out of this world experience! Explore
       </div>
-      <div className="picContent"></div>
+      <div className="exploreLogo"></div>
     </div>
   );
 }
