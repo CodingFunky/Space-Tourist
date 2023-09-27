@@ -1,0 +1,56 @@
+.homeContainer {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  height: 100vh;
+  padding: 0rem 6rem;
+  background-image: url(../../../assets/home/background-home-desktop.jpg);
+  background-size: cover;
+  text-transform: uppercase;
+}
+.homeLeftContent {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  width: 50%;
+  padding: 2rem;
+}
+.homeLeftContent > .barlow-condensed {
+  font-family: "Barlow Condensed", serif;
+  padding: 2rem;
+  font-size: 28px;
+  display: block;
+}
+.homeLeftContent > .bellefair {
+  font-family: "Bellefair", serif;
+  padding: 2rem;
+  font-size: 150px;
+}
+.homeLeftContent > .barlow {
+  font-family: "Barlow", serif;
+  text-transform: none;
+  font-size: 18px;
+  padding: 2rem;
+}
+.homeRightContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 0rem;
+  width: 50%;
+  border-radius: 50%;
+}
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  height: 15rem;
+  width: 15rem;
+  padding: 5rem;
+  border: 1rem solid transparent;
+  border-radius: 50%;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-family: "Bellefair", serif;
+}

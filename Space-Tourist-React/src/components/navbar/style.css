@@ -1,0 +1,103 @@
+/* Navbar container */
+.navbar {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  padding: 3rem 0rem 2rem 2rem;
+  justify-content: space-between;
+  align-items: center;
+  outline: none;
+}
+/* Burger menu */
+.burger {
+  display: none;
+}
+/* The line between the logo and the navigation contents */
+.line {
+  width: 35%;
+  left: 10%;
+  position: absolute;
+  z-index: 50;
+  border: 1px solid grey;
+}
+/* The navigation links */
+.content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0rem 2rem;
+  background: rgba(37, 41, 56, 0.2);
+  backdrop-filter: blur(10px);
+  width: 55%;
+}
+.number {
+  padding: 0rem 0.15rem;
+}
+.content > a {
+  font-size: 100%;
+  padding: 2rem 3rem;
+  text-transform: uppercase;
+  font-family: "Barlow Condensed", sans-serif;
+  text-decoration: none;
+  color: white;
+}
+.content > a:hover {
+  padding-bottom: 1.99rem;
+  border-bottom: 1px white solid;
+}
+/* Tablet Design */
+@media screen and (max-width: 1024px) {
+  .navbar {
+    padding: 0%;
+  }
+  .line {
+    display: none;
+  }
+  .img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0rem 0rem 2rem;
+  }
+  .content {
+    padding: 0rem 1rem;
+    width: 50%;
+  }
+  .content > a {
+    padding: 2rem 0rem;
+  }
+  .number {
+    display: none;
+  }
+}
+@media screen and (max-width: 480px) {
+  .burger {
+    display: block;
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    z-index: 1;
+    padding: 1rem;
+    cursor: pointer;
+  }
+  .content {
+    display: none;
+  }
+  .responsive-content {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-evenly;
+    background: rgba(37, 41, 56, 0.2);
+    backdrop-filter: blur(10px);
+    width: 55%;
+  }
+  .responsive-content > a {
+    font-size: 100%;
+    padding: 2rem 3rem;
+    text-transform: uppercase;
+    font-family: "Barlow Condensed", sans-serif;
+    text-decoration: none;
+    color: white;
+  }
+}
