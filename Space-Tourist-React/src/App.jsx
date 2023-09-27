@@ -8,11 +8,13 @@ import Home from "./components/home/home.jsx";
 function App() {
   return (
     <>
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="*" element={<>Page Not Found</>} />
-      </Routes>
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/destination" element={<Destination />} />
+        </Routes>
+      </Router>
     </>
   );
 }
