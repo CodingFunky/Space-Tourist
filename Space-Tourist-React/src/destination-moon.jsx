@@ -2,11 +2,13 @@ import moon from "../assets/destination/image-moon.png";
 
 function Destination() {
   return (
-    <div className="destContainer">
+    <div className="destinationContainer">
       <img src={moon} alt="Moon" />
-      <div className="destLeftContent">01 Pick Your Destination</div>
+      <div className="destinationLeftContent">01 Pick Your Destination</div>
 
-      <div className="destRightContent"></div>
+      <div className="destinationRightContent">
+        <div className="destinationNav"></div>
+      </div>
     </div>
   );
 }
