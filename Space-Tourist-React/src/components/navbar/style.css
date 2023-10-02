@@ -14,11 +14,12 @@
 }
 /* The line between the logo and the navigation contents */
 .line {
+  /* height: 1px; */
   width: 35%;
   left: 10%;
   position: absolute;
   z-index: 50;
-  border: 1px solid grey;
+  border: 1px solid rgba(151, 151, 151, 0.5);
 }
 /* The navigation links */
 .content {

@@ -8,7 +8,7 @@ function Destination() {
   return (
     <div className="destinationContainer">
       <p className="destinationTitle">
-        <span className="bold">01</span> PICK YOUR DESTINATION
+        <span className="bold transparent">0 1</span> PICK YOUR DESTINATION
       </p>
       <section className="destinationHero">
         <img src={moon} alt="Moon" className="moonPic" />

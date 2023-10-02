@@ -1,15 +1,28 @@
-.destinationContainer {
+:root {
     background-image: url(../../../assets/destination/background-destination-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.bold {
+    font-family: "Barlow Condensed", serif;
+    font-weight: bold;
+    color: FFFFFF;
+}
+.transparent {
+    color: rgba(255, 255, 255, 0.25)
+}
+.destinationContainer {
     display: flex;
     flex-direction: column;
     justify-content: end;
     /* align-items: end; */
     height: 100vh;
     padding: 0rem 7.5rem;
-    background-size: cover;
     /* text-transform: uppercase; */
 }
 .destinationTitle {
+    display: flex;
+    gap: 1em;
     color: white;
     font-family: "Bellefair", serif;
     font-weight: 100;
