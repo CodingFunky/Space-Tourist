@@ -2,7 +2,7 @@
 import { BrowserRouter } from "react-router-dom";
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/navbar/Navbar.jsx";
-import Destination from "./destination-moon.jsx";
+import Destination from "./components/destinations/destination-moon.jsx";
 import "./App.css";
 import Home from "./components/home/home.jsx";
 
