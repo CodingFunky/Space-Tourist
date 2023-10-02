@@ -11,21 +11,6 @@
 .transparent {
     color: rgba(255, 255, 255, 0.25)
 }
-.btn {
-    background: none;
-    border: none;
-    padding: 0;
-    margin: 0;
-    outline: none;
-    box-shadow: none;
-    cursor: pointer;
-    font-family: inherit;
-    font-size: inherit;
-    color: inherit;
-    -webkit-appearance: none; /* for iOS buttons */
-    -moz-appearance: none;    /* for Firefox */
-    appearance: none;         /* Modern browsers */
-}
 .destinationContainer {
     display: flex;
     flex-direction: column;
@@ -58,7 +43,7 @@
     display: flex;
     flex-direction: column;
     height: 80%;
-    width: 400px;
+    width: 445px;
     /* border: 1px white solid; */
     align-self: center;
     justify-self: end;
@@ -67,4 +52,15 @@
     display: flex;
     gap: 1.5em;
     font-family: "Barlow Condensed", serif;
+    padding-bottom: 2em;
+
+}
+.btn.dNav-btn {
+    padding-bottom: 1em;
+    box-sizing: border-box;
+    border-bottom: 1px transparent solid;
+}
+.dNav-btn:hover {
+    box-sizing: border-box;
+    border-bottom: 1px white solid;
 }
