@@ -1,0 +1,42 @@
+.destinationContainer {
+    background-image: url(../../../assets/destination/background-destination-desktop.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    /* align-items: end; */
+    height: 100vh;
+    padding: 0rem 7.5rem;
+    background-size: cover;
+    /* text-transform: uppercase; */
+}
+.destinationTitle {
+    color: white;
+    font-family: "Bellefair", serif;
+    font-weight: 100;
+    font-size: 1.5em;
+}
+.destinationHero {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 1px white solid; */
+}
+.moonPic {
+    height: 70%;
+    padding: 1em;
+}
+.cardContainer {
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    width: 400px;
+    /* border: 1px white solid; */
+    align-self: center;
+    justify-self: end;
+}
+.dNav {
+    display: flex;
+    gap: 1.5em;
+    font-family: "Barlow Condensed", serif;
+}

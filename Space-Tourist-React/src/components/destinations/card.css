@@ -1,0 +1,35 @@
+.card {
+    display: flex;
+    flex-direction: column;
+}
+.cardName {
+    color: white;
+    font-size: 3em;
+    font-family: "Bellefair", serif;
+}
+.cardDes {
+    font-family: "Barlow", serif;
+    font-weight: 400;
+    border-bottom: 1px solid white;
+    padding: 2em 0em 4em 0em;
+}
+.cardFooter {
+    display: flex;
+    gap: 5em;
+}
+.distance {
+    display: flex;
+    flex-direction: column;
+    font-family: "Barlow Condensed", serif;
+}
+.distanceTxt {
+    font-family: "Bellefair", serif;
+}
+.travel {
+    display: flex;
+    flex-direction: column;
+    font-family: "Barlow Condensed", serif;
+}
+.travelTxt {
+    font-family: "Bellefair", serif;
+}
