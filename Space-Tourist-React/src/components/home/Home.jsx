@@ -14,7 +14,7 @@ function Home() {
         </p>
       </div>
       <div className="homeRightContent">
-          <button type="button">Explore</button>
+        <button className="btn explore-btn">Explore</button>
       </div>
     </div>
   );

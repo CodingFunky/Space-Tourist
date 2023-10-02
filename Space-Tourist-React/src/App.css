@@ -2,3 +2,18 @@
     color: white;
     text-transform: uppercase;
 }
+.btn {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-shadow: none;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    -webkit-appearance: none; /* for iOS buttons */
+    -moz-appearance: none;    /* for Firefox */
+    appearance: none;         /* Modern browsers */
+}

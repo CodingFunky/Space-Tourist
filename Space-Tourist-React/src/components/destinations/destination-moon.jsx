@@ -4,7 +4,10 @@ import dataFile from "../../../data.json";
 import Card from "./card.jsx";
 const data = dataFile.destinations;
 console.log(data[0].description);
+
 function Destination() {
+  // const [currentActiveTab, setActiveTab] = useState("Moon");
+
   return (
     <div className="destinationContainer">
       <p className="destinationTitle">
@@ -14,10 +17,10 @@ function Destination() {
         <img src={moon} alt="Moon" className="moonPic" />
         <div className="cardContainer">
           <div className="dNav">
-            <p>Moon</p>
-            <p>Mars</p>
-            <p>Europa</p>
-            <p>Titan</p>
+            <button className="btn dNav-btn">Moon</button>
+            <button className="btn dNav-btn">Mars</button>
+            <button className="btn dNav-btn">Europa</button>
+            <button className="btn dNav-btn">Titan</button>
           </div>
           <Card
             name={data[0].name}
