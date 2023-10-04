@@ -4,7 +4,7 @@ import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/navbar/Navbar.jsx";
 import Destination from "./components/destinations/destination.jsx";
 import "./App.css";
-import Home from "./components/home/Home.jsx";
+import Home from "./components/home/home.jsx";
 
 function App() {
   return (
