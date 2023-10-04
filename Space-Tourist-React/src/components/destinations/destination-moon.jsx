@@ -1,6 +1,5 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useState } from "react";
-import moon from "../../../assets/destination/image-moon.png";
 import "./destination.css";
 import dataFile from "../../../data.json";
 import Card from "./card.jsx";
@@ -22,7 +21,7 @@ function Destination() {
         <span className="bold transparent">0 1</span> PICK YOUR DESTINATION
       </p>
       <section className="destinationHero">
-        <img src={moon} alt="Moon" className="moonPic" />
+        <img src={currentActiveTab.images.png} alt="Moon" className="moonPic" />
         <div className="cardContainer">
           <div className="dNav">
             {data.map((dest) => (

@@ -14,25 +14,27 @@
 .destinationContainer {
     display: flex;
     flex-direction: column;
-    justify-content: end;
-    /* align-items: end; */
+    justify-content: center;
     height: 100vh;
-    padding: 0rem 7.5rem;
-    /* text-transform: uppercase; */
+    padding: 5.5rem 1rem;
 }
 .destinationTitle {
+    padding-left: 6.5rem;
     display: flex;
     gap: 1em;
     color: white;
-    font-family: "Bellefair", serif;
-    font-weight: 100;
-    font-size: 1.5em;
+    font-family: "Barlow Condensed", serif;
+    font-weight: 400;
+    font-size: 28pxem;
 }
 .destinationHero {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    width: 90%;
+    justify-content: center;
     align-items: center;
+    align-self: center;
+    gap: 2rem;
     /* border: 1px white solid; */
 }
 .moonPic {
@@ -40,27 +42,31 @@
     padding: 1em;
 }
 .cardContainer {
+    padding-left: 2em;
     display: flex;
     flex-direction: column;
-    height: 80%;
+    height: 100%;
     width: 445px;
-    /* border: 1px white solid; */
-    align-self: center;
-    justify-self: end;
+    border: 1px white solid;
+    align-self: flex-end;
 }
 .dNav {
+    font-size: 1.2em;
+    font-weight: 100;
     display: flex;
-    gap: 1.5em;
+    justify-content: flex-start;
+    gap: 1.8em;
     font-family: "Barlow Condensed", serif;
-    padding-bottom: 2em;
+    padding-bottom: 1.2em;
 
 }
 .btn.dNav-btn {
-    padding-bottom: 1em;
+    width: auto;
+    padding-bottom: 0.5em;
     box-sizing: border-box;
-    border-bottom: 1px transparent solid;
+    border-bottom: 2px transparent solid;
 }
 .dNav-btn:hover {
     box-sizing: border-box;
-    border-bottom: 1px white solid;
+    border-bottom: 2px white solid;
 }

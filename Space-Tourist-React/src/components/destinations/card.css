@@ -4,32 +4,40 @@
 }
 .cardName {
     color: white;
-    font-size: 3em;
+    font-size: 5em;
     font-family: "Bellefair", serif;
+    font-weight: 400;
 }
 .cardDes {
     font-family: "Barlow", serif;
-    font-weight: 400;
+    font-weight: 200;
     border-bottom: 1px solid white;
     padding: 2em 0em 4em 0em;
 }
 .cardFooter {
+    padding-top: 1.5em;
     display: flex;
     gap: 5em;
 }
 .distance {
+    font-size: 28px;
     display: flex;
     flex-direction: column;
     font-family: "Barlow Condensed", serif;
 }
 .distanceTxt {
+    font-weight: 100;
+    font-size: 14px;
     font-family: "Bellefair", serif;
 }
 .travel {
+    font-size: 28px;
     display: flex;
     flex-direction: column;
     font-family: "Barlow Condensed", serif;
 }
 .travelTxt {
+    font-weight: 100;
+    font-size: 14px;
     font-family: "Bellefair", serif;
 }
