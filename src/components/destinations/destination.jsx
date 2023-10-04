@@ -21,7 +21,11 @@ function Destination() {
         <span className="bold transparent">0 1</span> PICK YOUR DESTINATION
       </p>
       <section className="destinationHero">
-        <img src={currentActiveTab.images.png} alt="Moon" className="moonPic" />
+        <img
+          src={currentActiveTab.images.webp}
+          alt={currentActiveTab.name}
+          className="moonPic"
+        />
         <div className="cardContainer">
           <div className="dNav">
             {data.map((dest) => (
