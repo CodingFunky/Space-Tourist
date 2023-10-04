@@ -1,6 +1,7 @@
 /* Navbar container */
 .navbar {
   font-size: 14px;
+  font-weight: 100;
   display: flex;
   position: fixed;
   width: 100%;

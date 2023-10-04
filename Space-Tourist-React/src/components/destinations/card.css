@@ -1,18 +1,22 @@
 .card {
     display: flex;
     flex-direction: column;
+    /* width: 400px; */
 }
 .cardName {
     color: white;
-    font-size: 5em;
+    font-size: 100px;
     font-family: "Bellefair", serif;
     font-weight: 400;
 }
 .cardDes {
+    font-size: 18px;
     font-family: "Barlow", serif;
-    font-weight: 200;
+    font-weight: 100;
     border-bottom: 1px solid white;
-    padding: 2em 0em 4em 0em;
+    font-family: "Barlow Condensed", serif;
+    padding: 1em 0em 3em 0em;
+    text-transform: none;
 }
 .cardFooter {
     padding-top: 1.5em;
