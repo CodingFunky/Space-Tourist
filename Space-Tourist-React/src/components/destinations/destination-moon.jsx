@@ -1,13 +1,21 @@
+// eslint-disable-next-line no-unused-vars
+import React, { useState } from "react";
 import moon from "../../../assets/destination/image-moon.png";
 import "./destination.css";
 import dataFile from "../../../data.json";
 import Card from "./card.jsx";
+
 const data = dataFile.destinations;
-console.log(data[0].description);
 
 function Destination() {
-  // const [currentActiveTab, setActiveTab] = useState("Moon");
+  const [currentActiveTab, setActiveTab] = useState(data[0]);
 
+  function handleTabClick(destinationName) {
+    const selectedDestination = data.find(
+      (dest) => dest.name === destinationName
+    );
+    setActiveTab(selectedDestination);
+  }
   return (
     <div className="destinationContainer">
       <p className="destinationTitle">
@@ -17,16 +25,36 @@ function Destination() {
         <img src={moon} alt="Moon" className="moonPic" />
         <div className="cardContainer">
           <div className="dNav">
-            <button className="btn dNav-btn">Moon</button>
-            <button className="btn dNav-btn">Mars</button>
-            <button className="btn dNav-btn">Europa</button>
-            <button className="btn dNav-btn">Titan</button>
+            <button
+              className="btn dNav-btn"
+              onClick={() => handleTabClick(data[0].name)}
+            >
+              Moon
+            </button>
+            <button
+              className="btn dNav-btn"
+              onClick={() => handleTabClick(data[1].name)}
+            >
+              Mars
+            </button>
+            <button
+              className="btn dNav-btn"
+              onClick={() => handleTabClick(data[2].name)}
+            >
+              Europa
+            </button>
+            <button
+              className="btn dNav-btn"
+              onClick={() => handleTabClick(data[3].name)}
+            >
+              Titan
+            </button>
           </div>
           <Card
-            name={data[0].name}
-            description={data[0].description}
-            distance={data[0].distance}
-            travel={data[0].travel}
+            name={currentActiveTab.name}
+            description={currentActiveTab.description}
+            distance={currentActiveTab.distance}
+            travel={currentActiveTab.travel}
           />
         </div>
       </section>
