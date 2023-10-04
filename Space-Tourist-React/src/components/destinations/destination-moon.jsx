@@ -25,30 +25,15 @@ function Destination() {
         <img src={moon} alt="Moon" className="moonPic" />
         <div className="cardContainer">
           <div className="dNav">
-            <button
-              className="btn dNav-btn"
-              onClick={() => handleTabClick(data[0].name)}
-            >
-              Moon
-            </button>
-            <button
-              className="btn dNav-btn"
-              onClick={() => handleTabClick(data[1].name)}
-            >
-              Mars
-            </button>
-            <button
-              className="btn dNav-btn"
-              onClick={() => handleTabClick(data[2].name)}
-            >
-              Europa
-            </button>
-            <button
-              className="btn dNav-btn"
-              onClick={() => handleTabClick(data[3].name)}
-            >
-              Titan
-            </button>
+            {data.map((dest) => (
+              <p
+                key={dest.name}
+                className="btn dNav-btn"
+                onClick={() => handleTabClick(dest.name)}
+              >
+                {dest.name}
+              </p>
+            ))}
           </div>
           <Card
             name={currentActiveTab.name}
