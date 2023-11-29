@@ -14,7 +14,15 @@ export default function Card(props) {
   return (
     <div className="card">
       <h1 className="cardName">{props.name}</h1>
-      <p className="cardDes">{props.description}</p>
+      <p className="cardDes">
+        {props.description}
+        {props.name === "Mars" ? (
+          <>
+            <br />
+            <br />
+          </>
+        ) : null}
+      </p>
       <div className="cardFooter">
         <div className="distance">
           <span className="distanceTxt">AVG. DISTANCE </span>
