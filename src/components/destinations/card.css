@@ -17,6 +17,7 @@
     font-family: "Barlow Condensed", serif;
     padding: 1em 0em 3em 0em;
     text-transform: none;
+    height: 75px;
 }
 .cardFooter {
     padding-top: 1.5em;
