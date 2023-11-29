@@ -17,7 +17,12 @@
     font-family: "Barlow Condensed", serif;
     padding: 1em 0em 3em 0em;
     text-transform: none;
+    height: 75px;
 }
+/* .cardDes:{
+    line-height: 1.5;
+    border: 1px solid red;
+} */
 .cardFooter {
     padding-top: 1.5em;
     display: flex;
